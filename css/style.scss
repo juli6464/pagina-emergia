@@ -1,0 +1,127 @@
+/*Colores*/
+$color-primary:#1F426D;
+$color-secondary: #ffffff;
+$color-three: #009bcf;
+$color-four: #eb6526;
+$color-five: #ff5e00;
+
+
+#nav  {
+    background-color: $color-three;
+    font-weight: bold;
+      
+    a{
+        color: $color-secondary;
+        &:hover {
+            border-bottom: 3px solid $color-four;
+          }   
+    }
+    .btn-four{
+        color: $color-secondary;
+        background-color: $color-four;
+        font-weight: bold;
+        &:hover {
+            background-color: $color-five;
+          }
+    } 
+  
+}
+#carousel{
+    position: relative;
+    .overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0; 
+        right:0;
+        color: white;
+        z-index: 1;
+        .btn-four{
+            color: $color-secondary;
+            background-color: $color-four;
+            font-weight: bold;
+            &:hover {
+                background-color: $color-five;
+              }
+        } 
+    }
+    
+    
+}
+
+
+.p-text{
+    color: $color-three;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#planes{ 
+    .container{
+        width: 100%;
+    .card{
+        height: 400px;
+        border-radius: 2.25rem;
+        background-color: $color-primary;
+        color: $color-secondary;
+        .card-title{
+            background-color: $color-four;
+            border-radius: 0.25rem;
+            font-style: italic;
+        }
+    }
+    .btn-four{
+        color: $color-secondary;
+        background-color: $color-four;
+        font-weight: bold;
+        &:hover {
+            background-color: $color-five;
+          }
+        }
+    }
+}
+
+
+
+
+#banner-call{
+    background-color: $color-primary;
+    color: $color-secondary;
+    .overlay .btn-four{
+        color: $color-secondary;
+        background-color: $color-four;
+        font-weight: bold;
+        &:hover {
+            background-color: $color-five;
+          }
+
+    }
+}  
+
+.last-btn{
+    
+    .btn-four{
+        color: $color-secondary;
+        background-color: $color-four;
+        font-weight: bold;
+        &:hover {
+            background-color: $color-five;
+          }
+    }
+}
+.btn-four{
+    color: $color-secondary;
+    background-color: $color-four;
+    font-weight: bold;
+    &:hover {
+        background-color: $color-five;
+      }
+}
+
+#footer{
+    background-color: $color-primary;
+
+    a{
+        color: $color-secondary ;
+    }   
+}     

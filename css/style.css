@@ -1,0 +1,107 @@
+/*Colores*/
+#nav {
+  background-color: #009bcf;
+  font-weight: bold;
+}
+#nav a {
+  color: #ffffff;
+}
+#nav a:hover {
+  border-bottom: 3px solid #eb6526;
+}
+#nav .btn-four {
+  color: #ffffff;
+  background-color: #eb6526;
+  font-weight: bold;
+}
+#nav .btn-four:hover {
+  background-color: #ff5e00;
+}
+
+#carousel {
+  position: relative;
+}
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  z-index: 1;
+}
+#carousel .overlay .btn-four {
+  color: #ffffff;
+  background-color: #eb6526;
+  font-weight: bold;
+}
+#carousel .overlay .btn-four:hover {
+  background-color: #ff5e00;
+}
+
+.p-text {
+  color: #009bcf;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#planes .container {
+  width: 100%;
+}
+#planes .container .card {
+  height: 400px;
+  border-radius: 2.25rem;
+  background-color: #1F426D;
+  color: #ffffff;
+}
+#planes .container .card .card-title {
+  background-color: #eb6526;
+  border-radius: 0.25rem;
+  font-style: italic;
+}
+#planes .container .btn-four {
+  color: #ffffff;
+  background-color: #eb6526;
+  font-weight: bold;
+}
+#planes .container .btn-four:hover {
+  background-color: #ff5e00;
+}
+
+#banner-call {
+  background-color: #1F426D;
+  color: #ffffff;
+}
+#banner-call .overlay .btn-four {
+  color: #ffffff;
+  background-color: #eb6526;
+  font-weight: bold;
+}
+#banner-call .overlay .btn-four:hover {
+  background-color: #ff5e00;
+}
+
+.last-btn .btn-four {
+  color: #ffffff;
+  background-color: #eb6526;
+  font-weight: bold;
+}
+.last-btn .btn-four:hover {
+  background-color: #ff5e00;
+}
+
+.btn-four {
+  color: #ffffff;
+  background-color: #eb6526;
+  font-weight: bold;
+}
+.btn-four:hover {
+  background-color: #ff5e00;
+}
+
+#footer {
+  background-color: #1F426D;
+}
+#footer a {
+  color: #ffffff;
+}
